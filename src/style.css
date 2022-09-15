@@ -7,3 +7,17 @@ body {
   background-size: cover;
   background-blend-mode: overlay;
 }
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Russo One", sans-serif;
+  }
+
+  p,
+  ol {
+    font-family: "Roboto Slab", serif;
+  }
+}
