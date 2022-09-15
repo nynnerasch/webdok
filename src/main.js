@@ -11,7 +11,7 @@ animate(
   ".staggeranimation li",
   { opacity: [0, 1] },
   {
-    delay: stagger(1, { start: 2 }),
+    delay: stagger(1, { start: 7 }),
   }
 );
 
