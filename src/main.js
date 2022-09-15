@@ -14,3 +14,5 @@ animate(
     delay: stagger(1, { start: 2 }),
   }
 );
+
+scroll(animate(".progress-bar", { scaleX: [0, 1] }));
